@@ -18,7 +18,7 @@ module.exports = {
       "type": "string",
       "required": false,
       "message": "Project description",
-      "default": "A Vue.js project"
+      "default": "A obigo project"
     },
     "author": {
       "type": "string",
@@ -26,7 +26,7 @@ module.exports = {
     },
     "build": {
       "type": "list",
-      "message": "Vue build",
+      "message": "obigo build",
       "choices": [
         {
           "name": "Runtime + Compiler: recommended for most users",
@@ -82,5 +82,5 @@ module.exports = {
     "test/unit/**/*": "unit",
     "test/e2e/**/*": "e2e"
   },
-  "completeMessage": "To get started:\n\n  cd {{destDirName}}\n  npm install\n  npm run dev\n\nDocumentation can be found at https://vuejs-templates.github.io/webpack"
+  "completeMessage": "To get started:\n\n  cd {{destDirName}}\n  npm install\n  npm run dev\n\nDocumentation can be found at obigo.."
 };
